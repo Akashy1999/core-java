@@ -1,0 +1,63 @@
+1.what is platform independence?
+    java is platform independence because write ones run anywhere that means you write java code in windows
+	and run other platform like [unix,mac] 
+	Actually  byte code platform independence
+	
+ 2.what are diff b/w primitive and non primitive datatype?
+  datatype means what type of data store in is called datatype.....
+example :int means only integer value store ......
+          String means charter only store.....
+		  there are tow type of data 
+		  1.primative  (fixed size)
+		  2.nan primitive(its not fixed size)
+		* primitive :
+		    there are 8 type data
+			datatype   default value  memory
+			byte :           0         1 byte  8 bhit
+			shor :           0         2 byte  16 bhit
+			int:             0         4 byte  32 bhit
+			long :           0l        8 byte  64 bhit
+			float:           0.0f      4 byte  32 bhit
+			double:          0.0       8 byte  64 bhit
+			char:                      2 byte  16 bhit 
+			Boolean:         false              1 bhit
+		* non primitive :
+		   there are 'n' number  in built keywords first later is upper case Compulsory
+		    String Class.....etc
+ 3. Explain class and its member with example?
+    * class is a bule print of object.
+	* class is combination of states and behaviours.	
+	Syntax:
+	 public class Akash{
+		 
+	 }
+	its member with example?
+	1.contructor: contractor name and class name should be same,, and  there is no return type
+	example: class A{
+		a(){
+			
+		}
+	}
+	2.variables: It is register area allocated for memory (or) it is container store the data
+   eg: int a=10;	
+	3.methads: method is block of code for execution  specific task
+	eg: static int main(){
+		return;
+		
+	}
+	
+6. Explain main method with the memory its execute?
+    
+	Public static void main(String args[]){
+		public is access modifier.
+		static is nan access modifier
+		void mens there no return type,
+		main start execution with  a main method,
+		String args[]:command line argument
+	}
+	program execution is jvm in java 
+	there main 3 task
+	1.load byte code ;
+	2.verfiy byte code;
+	3.exuaction byte code;
+	finally display output of the code

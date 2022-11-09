@@ -1,0 +1,134 @@
+1)Explian 
+JRE:java runtime enivornament
+JDK:java Devlopment kit
+JVM:java vircutial machine
+    *program execution is jvm in java  its platform independent
+	there main 3 task
+	1.load byte code ;
+	2.verfiy byte code;
+	3.exuaction byte code;
+	finally display output of the code
+
+
+2)Explian the following
+1)class:
+* class is a bule print of object.
+	* class is combination of states and behaviours.	
+	Syntax:
+	 public class Akash{
+		 
+	 }
+	its member with example?
+	1.contructor: contractor name and class name should be same,, and  there is no return type
+	example: class A{
+		a(){
+			
+		}
+	}
+*object:
+     *Instance variable store in Object.and non static variable store in object 
+object is creation using class name with any referance variable
+   example: organization org=new arganization();
+//org is referance og object in using the code
+*static:
+ static is non access modifier its use you wirte code in the  insiade the class some create static variable and direcatly print  inside main methad without object creation
+*public :
+  public is access modifier and it willaccess any were in system
+  example: Public static void main(String args[])
+*private:private keyword is using only in saide the class only access
+  example: private String org(){}
+* 2)Public static void main(String args[]){
+		public is access modifier.
+		static is non access modifier
+		void mens there no return type,
+		main start execution with  a main method,
+		String args[]:command line argument
+	}
+*3)System.out.println();
+    it will write with double qoutes and it will be  print
+example:System.out.println("hi hello");
+output:hi hello
+3)what is array?
+   array is a gruop of element its collecation of homegenoues element.
+   array statrt with index value zero
+example:
+int a[]={1,3,5,7,9};
+6)what is variable?
+  variables: It is register area allocated for memory (or) it is container store the data
+   eg: int a=10;
+  its type:
+  * static variable
+     static variable and direcatly print  inside main methad without object creation
+  * non static variable: object creation is complsory 
+  * local variable:variable ceration its main rule declarition and insalization is complsory
+4)write a program
+5)Explian dtatype in java?
+  datatype means what type of data store in is called datatype.....
+example :int means only integer value store ......
+          String means charter only store.....
+		  there are tow type of data 
+		  1.primative  (fixed size)
+		  2.nan primitive(its not fixed size)
+		* primitive :
+		    there are 8 type data
+			datatype   default value  memory
+			byte :           0         1 byte  8 bhit
+			shor :           0         2 byte  16 bhit
+			int:             0         4 byte  32 bhit
+			long :           0l        8 byte  64 bhit
+			float:           0.0f      4 byte  32 bhit
+			double:          0.0       8 byte  64 bhit
+			char:                      2 byte  16 bhit 
+			Boolean:         false              1 bhit
+		* non primitive :
+		   there are 'n' number  in built keywords first later is upper case Compulsory
+		    String Class.....etc
+8)fucher in java?
+   *simple and sacure
+   *highlevel
+   *protable
+   *Roubest
+   *multitherading
+   *automatic garbage collecation
+
+9)write once run any were?
+java is platform independence because write ones run anywhere that means you write java code in windows
+	and run other platform like [unix,mac] 
+	Actually  byte code platform independence
+12)write a program given reverce number
+public class Interview {
+ public static void reverce(int b[]) {
+	 for(int i=b.length-1;i>=0;i--) {	 
+    	System.out.print(b[i]);
+	 }
+ }
+ public static void main(String[] args) {
+	 int b[]= {2,3,4,6,7};
+	 reverce(b);	
+}
+}
+output:76432
+13)write a progarm Fact?
+public class fact {
+	public static void main(String args[]){  
+		  int i,fact=1;  
+		  int number=10;//It is the number to calculate factorial    
+		  for(i=1;i<=number;i++){    
+		      fact=fact*i;    
+		  }    
+		  System.out.println("Factorial of "+number+" is: "+fact);    
+		 }  
+}
+output:Factorial of 10 is: 3628800
+14) sum number
+public class Sum {
+	public static void main(String[] args) {
+	int a=2;
+	int b=3;
+	int c=4;
+	int d=a+b+c;
+	System.out.println("output is "+d);
+	
+	}
+}
+output is 9
